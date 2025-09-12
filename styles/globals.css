@@ -11,6 +11,9 @@
   /* Font Variables */
   --font-dm-sans: var(--font-dm-sans);
   --font-bricolage-grotesque: var(--font-bricolage-grotesque);
+
+  /* Box Shadow */
+  --shadow-md: 0 8px 16px hsla(243, 96%, 9%, 0.32);
 }
 
 @theme inline {
