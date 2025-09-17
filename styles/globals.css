@@ -46,4 +46,7 @@
 
   /* Letter Spacing */
   --tracking-tight: -2px;
+
+  /* Border Radius */
+  --radius-3xl: 1.25rem; /* 20px */
 }
