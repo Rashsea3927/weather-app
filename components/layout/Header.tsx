@@ -1,4 +1,4 @@
-import SelectUnits from '@/components/SelectUnits';
+import SelectUnits from '@/components/select-units/SelectUnits';
 import Image from 'next/image';
 
 const Header = () => {
