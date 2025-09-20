@@ -47,7 +47,7 @@ function Button({
     <Comp
       data-slot='button'
       className={cn(
-        'inline-flex items-center justify-center text-white font-medium whitespace-nowrap transition-all disabled:pointer-events-none outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 aria-invalid:border-destructive',
+        'inline-flex items-center justify-center text-white font-medium whitespace-nowrap disabled:pointer-events-none aria-invalid:ring-destructive/20 aria-invalid:border-destructive',
         className
       )}
       {...props}
