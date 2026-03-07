@@ -4,10 +4,56 @@
 
 @custom-variant dark (&:is(.dark *));
 
-@theme {
+@theme inline {
   /* Font Family */
   --font-dm-sans: var(--font-dm-sans);
   --font-bricolage-grotesque: var(--font-bricolage-grotesque);
+
+  /* Font Size */
+  --text-3xl: 1.75rem; /* 28px */
+  --text-4xl: 2rem; /* 32px */
+  --text-5xl: 3.25rem; /* 52px */
+
+  /* Line Height */
+  --leading-tight: 1.2;
+
   /* Colors */
   --color-neutral-900: hsl(243, 96%, 9%);
+  --color-neutral-800: hsl(243, 27%, 20%);
+  --color-neutral-700: hsl(243, 23%, 24%);
+  --color-neutral-600: hsl(243, 23%, 30%);
+}
+
+@layer components {
+  .text-preset-1 {
+    @apply text-8xl leading-none tracking-[-2px];
+  }
+
+  .text-preset-2 {
+    @apply text-5xl leading-tight tracking-normal;
+  }
+
+  .text-preset-3 {
+    @apply text-4xl leading-none tracking-normal;
+  }
+
+  .text-preset-4 {
+    @apply text-3xl leading-tight tracking-normal;
+  }
+
+  .text-preset-5 {
+    @apply text-xl leading-tight tracking-normal;
+  }
+
+  .text-preset-6 {
+    @apply text-lg leading-tight tracking-normal;
+  }
+
+  .text-preset-7 {
+    @apply text-base leading-tight tracking-normal;
+  }
+
+  .text-preset-8 {
+    @apply text-sm leading-tight tracking-normal;
+  }
 }
